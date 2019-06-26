@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>10A70797-2052-4BA7-AE2F-79AE75863AEE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>10A70797-2052-4BA7-AE2F-79AE75863AEE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583228779.90713894</real>
+			<key>timeStoppedRecording</key>
+			<real>583228842.16146302</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>10A70797-2052-4BA7-AE2F-79AE75863AEE</string>
+		</dict>
+		<key>11FFD35A-68D9-42CA-8144-393939FC75E3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>11FFD35A-68D9-42CA-8144-393939FC75E3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583221161.52169096</real>
+			<key>timeStoppedRecording</key>
+			<real>583221195.17038798</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>11FFD35A-68D9-42CA-8144-393939FC75E3</string>
+		</dict>
+		<key>1A4094B8-F239-4154-A083-8405EF87E2EE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>1A4094B8-F239-4154-A083-8405EF87E2EE.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583227004.45194304</real>
+			<key>timeStoppedRecording</key>
+			<real>583227062.53495896</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>1A4094B8-F239-4154-A083-8405EF87E2EE</string>
+		</dict>
+		<key>2625D871-18D2-4500-AFDC-CBD9E6C6D65D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2625D871-18D2-4500-AFDC-CBD9E6C6D65D.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583230521.10960495</real>
+			<key>timeStoppedRecording</key>
+			<real>583230598.46407104</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>2625D871-18D2-4500-AFDC-CBD9E6C6D65D</string>
+		</dict>
+		<key>3E3D315F-3871-4E1E-A247-4C20E65E15A4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>3E3D315F-3871-4E1E-A247-4C20E65E15A4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583230400.62645805</real>
+			<key>timeStoppedRecording</key>
+			<real>583230444.34806502</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>3E3D315F-3871-4E1E-A247-4C20E65E15A4</string>
+		</dict>
+		<key>562398FF-71DC-4281-BECE-54F970F7F955</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>562398FF-71DC-4281-BECE-54F970F7F955.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583228876.56883395</real>
+			<key>timeStoppedRecording</key>
+			<real>583230399.47993696</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>562398FF-71DC-4281-BECE-54F970F7F955</string>
+		</dict>
+		<key>60EDB5D1-CDE0-46F7-8CF7-330EC4F75C8F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>60EDB5D1-CDE0-46F7-8CF7-330EC4F75C8F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583230672.88940501</real>
+			<key>timeStoppedRecording</key>
+			<real>583230698.81321597</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>60EDB5D1-CDE0-46F7-8CF7-330EC4F75C8F</string>
+		</dict>
+		<key>62B6CF97-B84F-46DD-87AD-9C22A9987E89</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>62B6CF97-B84F-46DD-87AD-9C22A9987E89.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583227539.06845498</real>
+			<key>timeStoppedRecording</key>
+			<real>583227571.91229999</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>62B6CF97-B84F-46DD-87AD-9C22A9987E89</string>
+		</dict>
+		<key>6E7CFB3D-2AC4-49FE-AF13-4DB5C4BFA763</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>6E7CFB3D-2AC4-49FE-AF13-4DB5C4BFA763.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583231323.20415401</real>
+			<key>timeStoppedRecording</key>
+			<real>583231346.49886799</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>6E7CFB3D-2AC4-49FE-AF13-4DB5C4BFA763</string>
+		</dict>
+		<key>827FC299-CB5A-4211-8C91-B2108DB4E0B3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>827FC299-CB5A-4211-8C91-B2108DB4E0B3.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583227114.95041597</real>
+			<key>timeStoppedRecording</key>
+			<real>583227537.67569399</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>827FC299-CB5A-4211-8C91-B2108DB4E0B3</string>
+		</dict>
+		<key>A33B5D49-7687-47BE-A7E0-602929D68EB4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A33B5D49-7687-47BE-A7E0-602929D68EB4.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583224380.53234196</real>
+			<key>timeStoppedRecording</key>
+			<real>583224752.28811502</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>A33B5D49-7687-47BE-A7E0-602929D68EB4</string>
+		</dict>
+		<key>DDBC1DA4-C2AC-4DAA-8B6D-E9F94DB2E0A8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DDBC1DA4-C2AC-4DAA-8B6D-E9F94DB2E0A8.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583231563.000929</real>
+			<key>timeStoppedRecording</key>
+			<real>583231648.52933502</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>DDBC1DA4-C2AC-4DAA-8B6D-E9F94DB2E0A8</string>
+		</dict>
+		<key>E7442993-0621-4074-94C4-7E4FF7A0BA12</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E7442993-0621-4074-94C4-7E4FF7A0BA12.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583231395.98343503</real>
+			<key>timeStoppedRecording</key>
+			<real>583231425.97008002</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>E7442993-0621-4074-94C4-7E4FF7A0BA12</string>
+		</dict>
+		<key>ED294DCF-D2CF-40D2-8C02-A2D8A935BE7F</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ED294DCF-D2CF-40D2-8C02-A2D8A935BE7F.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>S</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>OCRTest project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>OCRTest</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug OCRTest</string>
+			<key>timeStartedRecording</key>
+			<real>583221060.046628</real>
+			<key>timeStoppedRecording</key>
+			<real>583221113.05650496</real>
+			<key>title</key>
+			<string>Debug OCRTest</string>
+			<key>uniqueIdentifier</key>
+			<string>ED294DCF-D2CF-40D2-8C02-A2D8A935BE7F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

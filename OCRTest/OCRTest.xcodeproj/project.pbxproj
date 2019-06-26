@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6C939122C33A2500662F67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C939022C33A2500662F67 /* AppDelegate.swift */; };
+		CD6C939322C33A2500662F67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C939222C33A2500662F67 /* ViewController.swift */; };
+		CD6C939622C33A2500662F67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6C939422C33A2500662F67 /* Main.storyboard */; };
+		CD6C939822C33A2700662F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6C939722C33A2700662F67 /* Assets.xcassets */; };
+		CD6C939B22C33A2700662F67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6C939922C33A2700662F67 /* LaunchScreen.storyboard */; };
+		CD6C93A622C33A2700662F67 /* OCRTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93A522C33A2700662F67 /* OCRTestTests.swift */; };
+		CD6C93B122C33A2700662F67 /* OCRTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93B022C33A2700662F67 /* OCRTestUITests.swift */; };
+		CD6C93BF22C33D0A00662F67 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C93BE22C33D0A00662F67 /* TesseractOCR.framework */; };
+		CD6C93C022C33D0E00662F67 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C93BE22C33D0A00662F67 /* TesseractOCR.framework */; };
+		CD6C93C122C33D0E00662F67 /* TesseractOCR.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C93BE22C33D0A00662F67 /* TesseractOCR.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD6C93C522C3406700662F67 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C93C422C3406700662F67 /* MobileCoreServices.framework */; };
+		CD6C93D122C3588100662F67 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = CD6C93D022C3588100662F67 /* tessdata */; };
+		CD6C93D322C35EBB00662F67 /* UIImageFixedOrientationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6C93D222C35EBB00662F67 /* UIImageFixedOrientationExtension.swift */; };
+		CD6C93D522C3649B00662F67 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6C93D422C3649B00662F67 /* libz.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD6C93A222C33A2700662F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C938522C33A2500662F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C938C22C33A2500662F67;
+			remoteInfo = OCRTest;
+		};
+		CD6C93AD22C33A2700662F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C938522C33A2500662F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD6C938C22C33A2500662F67;
+			remoteInfo = OCRTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD6C93C222C33D0E00662F67 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD6C93C122C33D0E00662F67 /* TesseractOCR.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD6C938D22C33A2500662F67 /* OCRTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCRTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C939022C33A2500662F67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD6C939222C33A2500662F67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD6C939522C33A2500662F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD6C939722C33A2700662F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD6C939A22C33A2700662F67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD6C939C22C33A2700662F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C93A122C33A2700662F67 /* OCRTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C93A522C33A2700662F67 /* OCRTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestTests.swift; sourceTree = "<group>"; };
+		CD6C93A722C33A2700662F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C93AC22C33A2700662F67 /* OCRTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCRTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD6C93B022C33A2700662F67 /* OCRTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCRTestUITests.swift; sourceTree = "<group>"; };
+		CD6C93B222C33A2700662F67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD6C93BE22C33D0A00662F67 /* TesseractOCR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TesseractOCR.framework; path = Carthage/Carthage/Build/iOS/Static/TesseractOCR.framework; sourceTree = "<group>"; };
+		CD6C93C422C3406700662F67 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CD6C93D022C3588100662F67 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		CD6C93D222C35EBB00662F67 /* UIImageFixedOrientationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageFixedOrientationExtension.swift; sourceTree = "<group>"; };
+		CD6C93D422C3649B00662F67 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD6C938A22C33A2500662F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93D522C3649B00662F67 /* libz.tbd in Frameworks */,
+				CD6C93C522C3406700662F67 /* MobileCoreServices.framework in Frameworks */,
+				CD6C93C022C33D0E00662F67 /* TesseractOCR.framework in Frameworks */,
+				CD6C93BF22C33D0A00662F67 /* TesseractOCR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C939E22C33A2700662F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93A922C33A2700662F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD6C938422C33A2500662F67 = {
+			isa = PBXGroup;
+			children = (
+				CD6C938F22C33A2500662F67 /* OCRTest */,
+				CD6C93A422C33A2700662F67 /* OCRTestTests */,
+				CD6C93AF22C33A2700662F67 /* OCRTestUITests */,
+				CD6C938E22C33A2500662F67 /* Products */,
+				CD6C93C322C3406700662F67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD6C938E22C33A2500662F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C938D22C33A2500662F67 /* OCRTest.app */,
+				CD6C93A122C33A2700662F67 /* OCRTestTests.xctest */,
+				CD6C93AC22C33A2700662F67 /* OCRTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD6C938F22C33A2500662F67 /* OCRTest */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93D022C3588100662F67 /* tessdata */,
+				CD6C93BE22C33D0A00662F67 /* TesseractOCR.framework */,
+				CD6C939022C33A2500662F67 /* AppDelegate.swift */,
+				CD6C939222C33A2500662F67 /* ViewController.swift */,
+				CD6C93D222C35EBB00662F67 /* UIImageFixedOrientationExtension.swift */,
+				CD6C939422C33A2500662F67 /* Main.storyboard */,
+				CD6C939722C33A2700662F67 /* Assets.xcassets */,
+				CD6C939922C33A2700662F67 /* LaunchScreen.storyboard */,
+				CD6C939C22C33A2700662F67 /* Info.plist */,
+			);
+			path = OCRTest;
+			sourceTree = "<group>";
+		};
+		CD6C93A422C33A2700662F67 /* OCRTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93A522C33A2700662F67 /* OCRTestTests.swift */,
+				CD6C93A722C33A2700662F67 /* Info.plist */,
+			);
+			path = OCRTestTests;
+			sourceTree = "<group>";
+		};
+		CD6C93AF22C33A2700662F67 /* OCRTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93B022C33A2700662F67 /* OCRTestUITests.swift */,
+				CD6C93B222C33A2700662F67 /* Info.plist */,
+			);
+			path = OCRTestUITests;
+			sourceTree = "<group>";
+		};
+		CD6C93C322C3406700662F67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C93D422C3649B00662F67 /* libz.tbd */,
+				CD6C93C422C3406700662F67 /* MobileCoreServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD6C938C22C33A2500662F67 /* OCRTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C93B522C33A2700662F67 /* Build configuration list for PBXNativeTarget "OCRTest" */;
+			buildPhases = (
+				CD6C938922C33A2500662F67 /* Sources */,
+				CD6C938A22C33A2500662F67 /* Frameworks */,
+				CD6C938B22C33A2500662F67 /* Resources */,
+				CD6C93C222C33D0E00662F67 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCRTest;
+			productName = OCRTest;
+			productReference = CD6C938D22C33A2500662F67 /* OCRTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD6C93A022C33A2700662F67 /* OCRTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C93B822C33A2700662F67 /* Build configuration list for PBXNativeTarget "OCRTestTests" */;
+			buildPhases = (
+				CD6C939D22C33A2700662F67 /* Sources */,
+				CD6C939E22C33A2700662F67 /* Frameworks */,
+				CD6C939F22C33A2700662F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6C93A322C33A2700662F67 /* PBXTargetDependency */,
+			);
+			name = OCRTestTests;
+			productName = OCRTestTests;
+			productReference = CD6C93A122C33A2700662F67 /* OCRTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD6C93AB22C33A2700662F67 /* OCRTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD6C93BB22C33A2700662F67 /* Build configuration list for PBXNativeTarget "OCRTestUITests" */;
+			buildPhases = (
+				CD6C93A822C33A2700662F67 /* Sources */,
+				CD6C93A922C33A2700662F67 /* Frameworks */,
+				CD6C93AA22C33A2700662F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD6C93AE22C33A2700662F67 /* PBXTargetDependency */,
+			);
+			name = OCRTestUITests;
+			productName = OCRTestUITests;
+			productReference = CD6C93AC22C33A2700662F67 /* OCRTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6C938522C33A2500662F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = NETS;
+				TargetAttributes = {
+					CD6C938C22C33A2500662F67 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CD6C93A022C33A2700662F67 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD6C938C22C33A2500662F67;
+					};
+					CD6C93AB22C33A2700662F67 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CD6C938C22C33A2500662F67;
+					};
+				};
+			};
+			buildConfigurationList = CD6C938822C33A2500662F67 /* Build configuration list for PBXProject "OCRTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD6C938422C33A2500662F67;
+			productRefGroup = CD6C938E22C33A2500662F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD6C938C22C33A2500662F67 /* OCRTest */,
+				CD6C93A022C33A2700662F67 /* OCRTestTests */,
+				CD6C93AB22C33A2700662F67 /* OCRTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD6C938B22C33A2500662F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C939B22C33A2700662F67 /* LaunchScreen.storyboard in Resources */,
+				CD6C93D122C3588100662F67 /* tessdata in Resources */,
+				CD6C939822C33A2700662F67 /* Assets.xcassets in Resources */,
+				CD6C939622C33A2500662F67 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C939F22C33A2700662F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93AA22C33A2700662F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD6C938922C33A2500662F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93D322C35EBB00662F67 /* UIImageFixedOrientationExtension.swift in Sources */,
+				CD6C939322C33A2500662F67 /* ViewController.swift in Sources */,
+				CD6C939122C33A2500662F67 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C939D22C33A2700662F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93A622C33A2700662F67 /* OCRTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD6C93A822C33A2700662F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C93B122C33A2700662F67 /* OCRTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD6C93A322C33A2700662F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6C938C22C33A2500662F67 /* OCRTest */;
+			targetProxy = CD6C93A222C33A2700662F67 /* PBXContainerItemProxy */;
+		};
+		CD6C93AE22C33A2700662F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD6C938C22C33A2500662F67 /* OCRTest */;
+			targetProxy = CD6C93AD22C33A2700662F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD6C939422C33A2500662F67 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C939522C33A2500662F67 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD6C939922C33A2700662F67 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD6C939A22C33A2700662F67 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD6C93B322C33A2700662F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD6C93B422C33A2700662F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD6C93B622C33A2700662F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YU75YNV6V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCRTest/Carthage/Carthage/Build/iOS/Static",
+					"$(PROJECT_DIR)/OCRTest/Lib",
+				);
+				INFOPLIST_FILE = OCRTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nets.OCRTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD6C93B722C33A2700662F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YU75YNV6V;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCRTest/Carthage/Carthage/Build/iOS/Static",
+					"$(PROJECT_DIR)/OCRTest/Lib",
+				);
+				INFOPLIST_FILE = OCRTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nets.OCRTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		CD6C93B922C33A2700662F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YU75YNV6V;
+				INFOPLIST_FILE = OCRTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nets.OCRTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRTest.app/OCRTest";
+			};
+			name = Debug;
+		};
+		CD6C93BA22C33A2700662F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YU75YNV6V;
+				INFOPLIST_FILE = OCRTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nets.OCRTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OCRTest.app/OCRTest";
+			};
+			name = Release;
+		};
+		CD6C93BC22C33A2700662F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YU75YNV6V;
+				INFOPLIST_FILE = OCRTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nets.OCRTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCRTest;
+			};
+			name = Debug;
+		};
+		CD6C93BD22C33A2700662F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2YU75YNV6V;
+				INFOPLIST_FILE = OCRTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nets.OCRTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OCRTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD6C938822C33A2500662F67 /* Build configuration list for PBXProject "OCRTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93B322C33A2700662F67 /* Debug */,
+				CD6C93B422C33A2700662F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C93B522C33A2700662F67 /* Build configuration list for PBXNativeTarget "OCRTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93B622C33A2700662F67 /* Debug */,
+				CD6C93B722C33A2700662F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C93B822C33A2700662F67 /* Build configuration list for PBXNativeTarget "OCRTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93B922C33A2700662F67 /* Debug */,
+				CD6C93BA22C33A2700662F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD6C93BB22C33A2700662F67 /* Build configuration list for PBXNativeTarget "OCRTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD6C93BC22C33A2700662F67 /* Debug */,
+				CD6C93BD22C33A2700662F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6C938522C33A2500662F67 /* Project object */;
+}
