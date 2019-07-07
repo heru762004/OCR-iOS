@@ -33,7 +33,10 @@ class ViewController: UIViewController, UINavigationControllerDelegate, UIImageP
         if let img = imageView.image {
             imageView.image = img.fixedOrientation()
             if let img2 = imageView.image {
-                imageView.image = img2.scaledImage(1000) ?? img2
+                let img3 = img2.scaledImage(1000) ?? img2
+                // add GPUImage processing to improve the detection
+                let preprocessedImage = img3.preprocessedImage() ?? img3
+                imageView.image = preprocessedImage
             }
         }
     }

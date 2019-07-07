@@ -1,0 +1,6 @@
+framework module Pods_OCRTestUITests {
+  umbrella header "Pods-OCRTestUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
